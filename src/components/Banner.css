@@ -1,0 +1,43 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.banner-bg {
+    height: 500px;
+    background: url(https://images.unsplash.com/photo-1683964012995-2f4d413abc3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.banner-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.banner-text {
+    color: #27374D;
+    text-align: center;
+}
+.banner-btn {
+    background: #58747c;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #DDE6ED;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.banner-btn:hover {
+    border: 2px solid #DDE6ED;
+    background: transparent;
+    color: #DDE6ED;
+}
+
+@media screen and (max-width: 480px) {
+    .banner-text {
+        padding: 0 2rem;
+    }
+}
